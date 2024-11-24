@@ -1,0 +1,21 @@
+
+
+.card button{
+    margin-top: -4%; 
+    margin-bottom: 1%; 
+    margin-left: 80%;
+    
+} 
+
+
+@media (max-width: 965px){
+    .card button{
+        margin-top: 0; 
+    margin-bottom: 0; 
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+    
+    
+}
+

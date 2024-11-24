@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  class="light-style layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="../../assets/"
+  data-template="vertical-menu-template-free"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>ANBM</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="../../assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="../../assets/vendor/fonts/boxicons.css" />
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../../assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <link rel="stylesheet" href="../../assets/vendor/libs/apex-charts/apex-charts.css" />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="../../assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../../assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Menu -->
+
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+          <div class="app-brand demo">
+            <a href="../index.html" class="app-brand-link">
+              <img src="../../assets/img/1486506231-game-sports-football-ball-basketball_81475.png" width="40"/>
+              <span class="app-brand-text demo menu-text fw-bolder ms-2">BallerMZ</span>
+            </a>
+
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+              <i class="bx bx-chevron-left bx-sm align-middle"></i>
+            </a>
+          </div>
+
+          <div class="menu-inner-shadow"></div>
+
+          <ul class="menu-inner py-1">
+            <!-- Dashboard -->
+            <li class="menu-item ">
+              <a href="../index.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="Analytics">Painel Administrativo</div>
+              </a>
+            </li>
+
+         
+
+            <li class="menu-header small text-uppercase">
+              <span class="menu-header-text">Dados Gerais</span>
+            </li>
+            <li class="menu-item active open">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings">Info. Pessoais</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item ">
+                  <a href="arbitros.html" class="menu-link">
+                    <div data-i18n="Account">Árbitros</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../funcionario/funcionarios.html" class="menu-link">
+                    <div data-i18n="Notifications">Funcionários</div>
+                  </a>
+                </li>
+                <li class="menu-item active">
+                  <a href="jogadores.html" class="menu-link">
+                    <div data-i18n="Connections">Jogadores</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../presidente/presidentes.html" class="menu-link">
+                    <div data-i18n="Connections">Presidentes</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../treinador/treinadores.html" class="menu-link">
+                    <div data-i18n="Connections">Treinadores</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-building"></i>
+                <div data-i18n="Authentications">Info. Organizacionais</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="../associacao/associacoes.html" class="menu-link"  >
+                    <div data-i18n="Basic">Associações</div>
+                  </a>
+                </li>
+               
+              </ul>
+            </li>
+            <!-- Components -->
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Dados Esportivos</span></li>
+           
+            <!-- User interface -->
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-group"></i>
+                <div data-i18n="User interface">Info. Técnicas</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="../equipa/equipas.html" class="menu-link">
+                    <div data-i18n="Accordion">Equipes</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../equipatecnica/equipatecnica.html" class="menu-link">
+                    <div data-i18n="Alerts">Equipe Técnica</div>
+                  </a>
+                </li>
+               
+                
+              </ul>
+            </li>
+
+            <!-- Extended components -->
+            <li class="menu-item">
+              <a href="javascript:void(0)" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-trophy"></i>
+                <div data-i18n="Extended UI">Info. de Campeonato</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="../campeonato/campeonatos.html" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">Campeonatos</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../campeao/campeoes.html" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">Campeões</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../jogo/jogos.html" class="menu-link">
+                    <div data-i18n="Perfect Scrollbar">Jogos</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../local/locais.html" class="menu-link">
+                    <div data-i18n="Text Divider">Locais de Jogo</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../resultado/resultados.html" class="menu-link">
+                    <div data-i18n="Text Divider">Resultados</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+          
+
+            <!-- Forms & Tables -->
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Outros Dados</span></li>
+            <!-- Forms -->
+          
+            <!-- Tables -->
+            <li class="menu-item">
+              <a href="../patrocinador/patrocinadores.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-user"></i>
+                <div data-i18n="Tables">Patrocinadores</div>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="../noticia/noticias.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-news"></i>
+                <div data-i18n="Tables">Notícias</div>
+              </a>
+            </li>
+            <!-- Misc -->
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Central de Apoio</span></li>
+            <li class="menu-item">
+              <a
+                href="../apoio/apoio.html"
+                 
+                class="menu-link"
+              >
+                <i class="menu-icon tf-icons bx bx-support"></i>
+                <div data-i18n="Support">Ajuda</div>
+              </a>
+            </li>
+           
+          </ul>
+        </aside>
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+
+          <nav
+            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+            id="layout-navbar"
+          >
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <!-- Search -->
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  <i class="bx bx-search fs-4 lh-0"></i>
+                  <input
+                    type="text"
+                    class="form-control border-0 shadow-none"
+                    placeholder="Procurar..." 
+                    aria-label="Search..."
+                  />
+                </div>
+              </div>
+              <!-- /Search -->
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- Place this tag where you want the button to render. -->
+                <li class="nav-item lh-1 me-3">
+                  <a
+                    class="github-button"
+                    href=""
+                    data-icon="octicon-star"
+                    data-size="large"
+                    data-show-count="true"
+                    aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
+                    >Star</a
+                  >
+                </li>
+
+                <!-- User -->
+                <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                  <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                    <div class="avatar avatar-online">
+                      <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                    </div>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <div class="d-flex">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar avatar-online">
+                              <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <span class="fw-semibold d-block">John Doe</span>
+                            <small class="text-muted">Admin</small>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="bx bx-user me-2"></i>
+                        <span class="align-middle">My Team</span>
+                      </a>
+                    </li>
+                    
+                   
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="auth-login-basic.html">
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">Log Out</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!--/ User -->
+              </ul>
+            </div>
+          </nav>
+
+          <!-- / Navbar -->
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+            <form  action="" method="POST">
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Dados Gerais / Informações Pessoais / Jogadores / </span> Novo Jogador</h4>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="nav nav-pills flex-column flex-md-row mb-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="javascript:void(0);"><i class="bx bx-user me-1"></i> Cadastro de Jogador</a>
+                    </li>   
+                    </ul>
+                  <div class="card mb-4">
+                    <h5 class="card-header">Dados do Jogador</h5>
+                    <!-- Account -->
+                    <form action="" method="">
+                    <div class="card-body">
+                      <div class="d-flex align-items-start align-items-sm-center gap-4">
+                        <img
+                          src="../../assets/img/avatars/1.png"
+                          alt="user-avatar"
+                          class="d-block rounded"
+                          height="100"
+                          width="100"
+                          id="uploadedAvatar"
+                        />
+                        <div class="button-wrapper">
+
+                          <label for="upload" class="btn btn-primary me-2 mb-4" tabindex="0">
+                            <span class="d-none d-sm-block">Escolher Foto</span>
+                            <i class="bx bx-upload d-block d-sm-none"></i>
+                            <input
+                              type="file"
+                              id="upload"
+                              class="account-file-input"
+                              hidden
+                              accept="image/png, image/jpeg"
+                              name="Foto"
+                            />
+                          </label>
+                          <button type="button" class="btn btn-outline-secondary account-image-reset mb-4">
+                            <i class="bx bx-reset d-block d-sm-none"></i>
+                            <span class="d-none d-sm-block">Limpar</span>
+                          </button>
+
+                          <p class="text-muted mb-0">Formatos permitidos JPG, GIF or PNG. Tamanho máximo de  800K</p>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="my-0" />
+                    <div class="card-body">
+                      
+                        <div class="row">
+                          <div class="mb-3 col-md-6">
+                            <label for="firstName" class="form-label">Nome Completo</label>
+                            <input
+                              class="form-control"
+                              type="text"
+                              id="firstName"
+                              name="nome"
+                              value="" placeholder="Digite o nome"
+                              autofocus
+                            />
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label for="lastName" class="form-label">Data de Nascimento</label>
+                            <input class="form-control" type="date" name="lastName" id="lastName" value="" />
+                          </div>
+
+                          <div class="mb-3 col-md-6">
+                            <label class="form-label" for="country">País</label>
+                            <select id="country" class="select2 form-select" name="pais">
+                              <option value="" disabled selected >Nacionalidade</option>
+                              <option value="Afeganistão">Afeganistão</option>
+            <option value="África do Sul">África do Sul</option>
+            <option value="Albânia">Albânia</option>
+            <option value="Alemanha">Alemanha</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antilhas Holandesas">Antilhas Holandesas</option>
+            <option value="Antárctida">Antárctida</option>
+            <option value="Antígua e Barbuda">Antígua e Barbuda</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Argélia">Argélia</option>
+            <option value="Armênia">Armênia</option>
+            <option value="Aruba">Aruba</option>
+            <option value="Arábia Saudita">Arábia Saudita</option>
+            <option value="Austrália">Austrália</option>
+            <option value="Áustria">Áustria</option>
+            <option value="Azerbaijão">Azerbaijão</option>
+            <option value="Bahamas">Bahamas</option>
+            <option value="Bahrein">Bahrein</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Barbados">Barbados</option>
+            <option value="Belize">Belize</option>
+            <option value="Benim">Benim</option>
+            <option value="Bermudas">Bermudas</option>
+            <option value="Bielorrússia">Bielorrússia</option>
+            <option value="Bolívia">Bolívia</option>
+            <option value="Botswana">Botswana</option>
+              <option value="Brasil">Brasil</option>
+            <option value="Brunei">Brunei</option>
+            <option value="Bulgária">Bulgária</option>
+            <option value="Burkina Faso">Burkina Faso</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Butão">Butão</option>
+            <option value="Bélgica">Bélgica</option>
+            <option value="Bósnia e Herzegovina">Bósnia e Herzegovina</option>
+            <option value="Cabo Verde">Cabo Verde</option>
+            <option value="Camarões">Camarões</option>
+            <option value="Camboja">Camboja</option>
+            <option value="Canadá">Canadá</option>
+            <option value="Catar">Catar</option>
+            <option value="Cazaquistão">Cazaquistão</option>
+            <option value="Chade">Chade</option>
+            <option value="Chile">Chile</option>
+            <option value="China">China</option>
+            <option value="Chipre">Chipre</option>
+            <option value="Colômbia">Colômbia</option>
+            <option value="Comores">Comores</option>
+            <option value="Coreia do Norte">Coreia do Norte</option>
+            <option value="Coreia do Sul">Coreia do Sul</option>
+            <option value="Costa do Marfim">Costa do Marfim</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Croácia">Croácia</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Dinamarca">Dinamarca</option>
+            <option value="Djibouti">Djibouti</option>
+            <option value="Dominica">Dominica</option>
+            <option value="Egito">Egito</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Emirados Árabes Unidos">Emirados Árabes Unidos</option>
+            <option value="Equador">Equador</option>
+            <option value="Eritreia">Eritreia</option>
+            <option value="Escócia">Escócia</option>
+            <option value="Eslováquia">Eslováquia</option>
+            <option value="Eslovênia">Eslovênia</option>
+            <option value="Espanha">Espanha</option>
+            <option value="Estados Federados da Micronésia">Estados Federados da Micronésia</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Estônia">Estônia</option>
+            <option value="Etiópia">Etiópia</option>
+            <option value="Fiji">Fiji</option>
+            <option value="Filipinas">Filipinas</option>
+            <option value="Finlândia">Finlândia</option>
+            <option value="França">França</option>
+            <option value="Gabão">Gabão</option>
+            <option value="Gana">Gana</option>
+            <option value="Geórgia">Geórgia</option>
+            <option value="Gibraltar">Gibraltar</option>
+            <option value="Granada">Granada</option>
+            <option value="Gronelândia">Gronelândia</option>
+            <option value="Grécia">Grécia</option>
+            <option value="Guadalupe">Guadalupe</option>
+            <option value="Guam">Guam</option>
+            <option value="Guatemala">Guatemala</option>
+            <option value="Guernesei">Guernesei</option>
+            <option value="Guiana">Guiana</option>
+            <option value="Guiana Francesa">Guiana Francesa</option>
+            <option value="Guiné">Guiné</option>
+            <option value="Guiné Equatorial">Guiné Equatorial</option>
+            <option value="Guiné-Bissau">Guiné-Bissau</option>
+            <option value="Gâmbia">Gâmbia</option>
+            <option value="Haiti">Haiti</option>
+            <option value="Honduras">Honduras</option>
+            <option value="Hong Kong">Hong Kong</option>
+            <option value="Hungria">Hungria</option>
+            <option value="Ilha Bouvet">Ilha Bouvet</option>
+            <option value="Ilha de Man">Ilha de Man</option>
+            <option value="Ilha do Natal">Ilha do Natal</option>
+            <option value="Ilha Heard e Ilhas McDonald">Ilha Heard e Ilhas McDonald</option>
+            <option value="Ilha Norfolk">Ilha Norfolk</option>
+            <option value="Ilhas Cayman">Ilhas Cayman</option>
+            <option value="Ilhas Cocos (Keeling)">Ilhas Cocos (Keeling)</option>
+            <option value="Ilhas Cook">Ilhas Cook</option>
+            <option value="Ilhas Feroé">Ilhas Feroé</option>
+            <option value="Ilhas Geórgia do Sul e Sandwich do Sul">Ilhas Geórgia do Sul e Sandwich do Sul</option>
+            <option value="Ilhas Malvinas">Ilhas Malvinas</option>
+            <option value="Ilhas Marshall">Ilhas Marshall</option>
+            <option value="Ilhas Menores Distantes dos Estados Unidos">Ilhas Menores Distantes dos Estados Unidos</option>
+            <option value="Ilhas Salomão">Ilhas Salomão</option>
+            <option value="Ilhas Virgens Americanas">Ilhas Virgens Americanas</option>
+            <option value="Ilhas Virgens Britânicas">Ilhas Virgens Britânicas</option>
+            <option value="Ilhas Åland">Ilhas Åland</option>
+            <option value="Indonésia">Indonésia</option>
+            <option value="Inglaterra">Inglaterra</option>
+            <option value="Índia">Índia</option>
+            <option value="Iraque">Iraque</option>
+            <option value="Irlanda do Norte">Irlanda do Norte</option>
+            <option value="Irlanda">Irlanda</option>
+            <option value="Irã">Irã</option>
+            <option value="Islândia">Islândia</option>
+            <option value="Israel">Israel</option>
+            <option value="Itália">Itália</option>
+            <option value="Iêmen">Iêmen</option>
+            <option value="Jamaica">Jamaica</option>
+            <option value="Japão">Japão</option>
+            <option value="Jersey">Jersey</option>
+            <option value="Jordânia">Jordânia</option>
+            <option value="Kiribati">Kiribati</option>
+            <option value="Kuwait">Kuwait</option>
+            <option value="Laos">Laos</option>
+            <option value="Lesoto">Lesoto</option>
+            <option value="Letônia">Letônia</option>
+            <option value="Libéria">Libéria</option>
+            <option value="Liechtenstein">Liechtenstein</option>
+            <option value="Lituânia">Lituânia</option>
+            <option value="Luxemburgo">Luxemburgo</option>
+            <option value="Líbano">Líbano</option>
+            <option value="Líbia">Líbia</option>
+            <option value="Macau">Macau</option>
+            <option value="Macedônia">Macedônia</option>
+            <option value="Madagáscar">Madagáscar</option>
+            <option value="Malawi">Malawi</option>
+            <option value="Maldivas">Maldivas</option>
+            <option value="Mali">Mali</option>
+            <option value="Malta">Malta</option>
+            <option value="Malásia">Malásia</option>
+            <option value="Marianas Setentrionais">Marianas Setentrionais</option>
+            <option value="Marrocos">Marrocos</option>
+            <option value="Martinica">Martinica</option>
+            <option value="Mauritânia">Mauritânia</option>
+            <option value="Maurícia">Maurícia</option>
+            <option value="Mayotte">Mayotte</option>
+            <option value="Moldávia">Moldávia</option>
+            <option value="Mongólia">Mongólia</option>
+            <option value="Montenegro">Montenegro</option>
+            <option value="Montserrat">Montserrat</option>
+            <option value="Moçambique">Moçambique</option>
+            <option value="Myanmar">Myanmar</option>
+            <option value="México">México</option>
+            <option value="Mônaco">Mônaco</option>
+            <option value="Namíbia">Namíbia</option>
+            <option value="Nauru">Nauru</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Nicarágua">Nicarágua</option>
+            <option value="Nigéria">Nigéria</option>
+            <option value="Niue">Niue</option>
+            <option value="Noruega">Noruega</option>
+            <option value="Nova Caledônia">Nova Caledônia</option>
+            <option value="Nova Zelândia">Nova Zelândia</option>
+            <option value="Níger">Níger</option>
+            <option value="Omã">Omã</option>
+            <option value="Palau">Palau</option>
+            <option value="Palestina">Palestina</option>
+            <option value="Panamá">Panamá</option>
+            <option value="Papua-Nova Guiné">Papua-Nova Guiné</option>
+            <option value="Paquistão">Paquistão</option>
+            <option value="Paraguai">Paraguai</option>
+            <option value="País de Gales">País de Gales</option>
+            <option value="Países Baixos">Países Baixos</option>
+            <option value="Peru">Peru</option>
+            <option value="Pitcairn">Pitcairn</option>
+            <option value="Polinésia Francesa">Polinésia Francesa</option>
+            <option value="Polônia">Polônia</option>
+            <option value="Porto Rico">Porto Rico</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Quirguistão">Quirguistão</option>
+            <option value="Quênia">Quênia</option>
+            <option value="Reino Unido">Reino Unido</option>
+            <option value="República Centro-Africana">República Centro-Africana</option>
+            <option value="República Checa">República Checa</option>
+            <option value="República Democrática do Congo">República Democrática do Congo</option>
+            <option value="República do Congo">República do Congo</option>
+            <option value="República Dominicana">República Dominicana</option>
+            <option value="Reunião">Reunião</option>
+            <option value="Romênia">Romênia</option>
+            <option value="Ruanda">Ruanda</option>
+            <option value="Rússia">Rússia</option>
+            <option value="Saara Ocidental">Saara Ocidental</option>
+            <option value="Saint Martin">Saint Martin</option>
+            <option value="Saint-Barthélemy">Saint-Barthélemy</option>
+            <option value="Saint-Pierre e Miquelon">Saint-Pierre e Miquelon</option>
+            <option value="Samoa Americana">Samoa Americana</option>
+            <option value="Samoa">Samoa</option>
+            <option value="Santa Helena, Ascensão e Tristão da Cunha">Santa Helena, Ascensão e Tristão da Cunha</option>
+            <option value="Santa Lúcia">Santa Lúcia</option>
+            <option value="Senegal">Senegal</option>
+            <option value="Serra Leoa">Serra Leoa</option>
+            <option value="Seychelles">Seychelles</option>
+            <option value="Singapura">Singapura</option>
+            <option value="Somália">Somália</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Suazilândia">Suazilândia</option>
+            <option value="Sudão">Sudão</option>
+            <option value="Suriname">Suriname</option>
+            <option value="Suécia">Suécia</option>
+            <option value="Suíça">Suíça</option>
+            <option value="Svalbard e Jan Mayen">Svalbard e Jan Mayen</option>
+            <option value="São Cristóvão e Nevis">São Cristóvão e Nevis</option>
+            <option value="São Marino">São Marino</option>
+            <option value="São Tomé e Príncipe">São Tomé e Príncipe</option>
+            <option value="São Vicente e Granadinas">São Vicente e Granadinas</option>
+            <option value="Sérvia">Sérvia</option>
+            <option value="Síria">Síria</option>
+            <option value="Tadjiquistão">Tadjiquistão</option>
+            <option value="Tailândia">Tailândia</option>
+            <option value="Taiwan">Taiwan</option>
+            <option value="Tanzânia">Tanzânia</option>
+            <option value="Terras Austrais e Antárticas Francesas">Terras Austrais e Antárticas Francesas</option>
+            <option value="Território Britânico do Oceano Índico">Território Britânico do Oceano Índico</option>
+            <option value="Timor-Leste">Timor-Leste</option>
+            <option value="Togo">Togo</option>
+            <option value="Tonga">Tonga</option>
+            <option value="Toquelau">Toquelau</option>
+            <option value="Trinidad e Tobago">Trinidad e Tobago</option>
+            <option value="Tunísia">Tunísia</option>
+            <option value="Turcas e Caicos">Turcas e Caicos</option>
+            <option value="Turquemenistão">Turquemenistão</option>
+            <option value="Turquia">Turquia</option>
+            <option value="Tuvalu">Tuvalu</option>
+            <option value="Ucrânia">Ucrânia</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Uruguai">Uruguai</option>
+            <option value="Uzbequistão">Uzbequistão</option>
+            <option value="Vanuatu">Vanuatu</option>
+            <option value="Vaticano">Vaticano</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Vietname">Vietname</option>
+            <option value="Wallis e Futuna">Wallis e Futuna</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            <option value="Zâmbia">Zâmbia</option>
+                            </select>
+                          </div>
+            
+                          <div class="mb-3 col-md-6">
+                            <label for="state" class="form-label">Província</label>
+                            <input class="form-control" type="text" id="state" name="provincia" placeholder="ex: Zambézia" />
+                          </div>
+
+                          <div class="mb-3 col-md-6">
+              <label for="address" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="address" name="cidade" placeholder="ex: Quelimane" />
+            </div>
+            <div class="mb-3 col-md-6">
+              <label for="address" class="form-label">Morada</label>
+              <input type="text" class="form-control" id="" name="morada" placeholder="ex: Pequeno Brasil" />
+            </div>
+            
+                          
+                          
+
+                          <div class="mb-3 col-md-6">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input
+                              class="form-control"
+                              type="text"
+                              id="email"
+                              name="email"
+                              value=""
+                              placeholder="email@example.com"
+                            />
+                          </div>
+                          
+                          <div class="mb-3 col-md-6">
+                            <label class="form-label" for="phoneNumber">Numero de Telefone</label>
+                            <div class="input-group input-group-merge">
+                              <span class="input-group-text">MOZ (+258)</span>
+                              <input
+                                type="text"
+                                id="phoneNumber"
+                                name="phoneNumber"
+                                class="form-control"
+                                placeholder="8X XXX XXXX"
+                              />
+                            </div>
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label for="organization" class="form-label">Altura (m)</label>
+                            <input
+                              type="text" placeholder="Ex: 1,88 "
+                              class="form-control"
+                              name="altura"
+                              value=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label for="organization" class="form-label">Peso (kg)</label>
+                            <input
+                              type="text" placeholder="Ex: 87,3 "
+                              class="form-control"
+                              
+                              name="peso"
+                              value=""
+                            />
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label for="language" class="form-label">Posição</label>
+                            <select id="language" class="select2 form-select" name="posicaoprincipal">
+                              <option value="" disabled selected>Escolha a Posição Principal do Jogador</option>
+                              <option value="Base">Base / Armador</option>
+                              <option value="Extremo-Base">Extremo-Base / Ala-Armador</option>
+                              <option value="Extremo">Extremo / Ala</option>
+                              <option value="Extremo-Poste">Extremo-Poste / Ala-Pivô</option>
+                              <option value="Poste">Poste / Pivô</option>
+                            </select>
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label for="language" class="form-label">Posição Alternativa</label>
+                            <select id="language" class="select2 form-select" name="posicaoalternativa">
+                              <option value="" disabled selected>Escolha a Posição Alternativa do Jogador</option>
+                              <option value="Base">Base / Armador</option>
+                              <option value="Extremo-Base">Extremo-Base / Ala-Armador</option>
+                              <option value="Extremo">Extremo / Ala</option>
+                              <option value="Extremo-Poste">Extremo-Poste / Ala-Pivô</option>
+                              <option value="Poste">Poste / Pivô</option>
+                            </select>
+                          </div>
+                          
+                          <div class="mb-3 col-md-6">
+                            <label for="language" class="form-label">Equipa</label>
+                            <select id="language" class="select2 form-select" name="posicaoprincipal">
+                              <option value="" disabled selected>Selecione a Equipe do Jogador</option>
+                            </select>
+                          </div>
+                          <div class="mb-3 col-md-6">
+                            <label for="language" class="form-label">Status do Jogador</label>
+                            <select id="language" class="select2 form-select" name="statusjogador">
+                              <option value="" disabled selected>Escolha o Estado Atual do Jogador</option>
+                              <option value="ativo">Ativo</option>
+                              <option value="inativo">Inativo</option>
+                              <option value="reserva">Reserva</option>
+                              <option value="lesionado">Lesionado</option>
+                              <option value="aposentado">Aposentado</option>
+                              <option value="transferido">Transferido</option>
+                            </select>
+                          </div>
+                         
+                          <div class="mb-3 col-md-6">
+                            <label for="language" class="form-label">Tipo de Jogador</label>
+                            <select id="language" class="select2 form-select" name="tipojogador">
+                              <option value="" disabled selected>Escolha o Tipo de Jogador</option>
+                              <option value="normal">Normal</option>
+                              <option value="capitao">Capitão</option>
+                            </select>
+                          </div>
+                         
+
+                          <div class="mb-3 col-md-6">
+                            <label class="form-label" for="phoneNumber">Salário</label>
+                            <div class="input-group input-group-merge">
+                              <span class="input-group-text">MOZ (MZN)</span>
+                              <input
+                                type="text"
+                                id=""
+                                name="salario"
+                                class="form-control"
+                                placeholder="Ex: 20,000.00"
+                              />
+                            </div>
+                          </div>
+
+
+                        </div>
+                        <div class="mt-2">
+                          <button type="submit" class="btn btn-primary me-2">Salvar</button>
+                          <button type="reset" class="btn btn-outline-secondary">Cancelar</button>
+                        </div>
+                      
+                    </div>
+                    <!-- /Account -->
+                      </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+            <!-- / Content -->
+
+            <!-- Footer -->
+            <footer class="content-footer footer bg-footer-theme">
+              <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+                <div class="mb-2 mb-md-0">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  by
+                  <a href="https://themeselection.com"   class="footer-link fw-bolder">Osvaldo Achar</a>
+                </div>
+                <div>
+                  <a href="https://themeselection.com/license/" class="footer-link me-4"  >Licença</a>
+                  
+                 
+
+                </div>
+              </div>
+            </footer>
+            <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <!-- / Layout wrapper -->
+
+   
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../../assets/vendor/js/bootstrap.js"></script>
+    <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="../../assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+
+    <!-- Main JS -->
+    <script src="../../assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="../../assets/js/pages-account-settings-account.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
